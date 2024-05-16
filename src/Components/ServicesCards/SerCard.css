@@ -1,0 +1,59 @@
+.SerCard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 30px;;
+    gap:20px;
+    height:600px;
+    width:30%;
+    overflow: scroll;
+    padding:30px;
+}
+.ser-cont{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+
+    overflow: scroll;
+    padding:30px;
+}
+
+.SerCard:hover{
+    color:green;
+    .service-head{
+        background-color: rgb(38, 166, 180);
+        padding:20px;
+
+    }
+    
+}
+.service-head{
+    font-size: 30px;
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+}
+.service-dis{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.SerCard img{
+    height:300px;
+    width:100%;
+    transition: transform 0.3s ease;
+}
+.SerCard img:hover{
+    transform: scale(1.1);
+}
+.img-con{
+    height:700px;
+    width:100%;
+    overflow: hidden;
+    border: 6px solid black;
+    border-radius: 50px;
+    
+}
